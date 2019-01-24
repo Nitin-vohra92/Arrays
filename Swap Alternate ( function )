@@ -1,0 +1,21 @@
+
+
+void swapAlternate(int arr[],int size){
+ 
+  /* Don't write main().
+     Don't read input, it is passed as function argument.
+     Taking input and printing output is handled automatically.
+  */
+  int i,j;
+  int temp;
+  for(i=0;i<size;i=i+2)
+  {
+    if(i!=size-1)
+    {temp=arr[i];
+    arr[i]=arr[i+1];
+    arr[i+1]=temp;
+    }
+
+
+  }
+}
