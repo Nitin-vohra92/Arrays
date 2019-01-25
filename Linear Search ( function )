@@ -3,11 +3,7 @@
 // val - element to be searched
 
 int linearSearch(int arr[], int n ,int val){
-    /* Don't write main().
-     * Don't read input, it is passed as function argument.
-     * Return output and don't print it.
-     * Taking input and printing output is handled automatically.
-     */
+  
   int i,z=-1;
   for(i=0;i<n;i++)
   {
