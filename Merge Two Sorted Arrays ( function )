@@ -1,5 +1,4 @@
-//void merge(int arr1[], int size1, int arr2[], int size2, int ans[]){
-    
+
    
     void merge(int arr1[], int size1, int arr2[], int size2, int ans[]){
  int i=0,j=0,k=0;
