@@ -4,11 +4,7 @@
 // size2 - size of second array
 
 void intersection(int input1[], int input2[], int size1, int size2) {
-    /* Don't write main().
-     * Don't read input, it is passed as function argument.
-     * Print the output and don't return it.
-     * Taking input is handled automatically.
-     */
+    
 int i,j,k=0,n=0,arr[1000];
   {
     for(i=0;i<size1;i++)
