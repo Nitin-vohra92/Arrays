@@ -1,7 +1,9 @@
 // arr - input array
 // n - size of array
 // val - element to be searched
-int BinarySearch(int arr[], int n, int val){	
+
+int BinarySearch(int arr[], int n, int val)
+{	
 	
 
   int start,end,middle,a=-1;
