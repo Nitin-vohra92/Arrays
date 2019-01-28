@@ -1,10 +1,6 @@
 long maxPathSum(int ar1[], int ar2[], int size1, int size2)
 {
-    /* Don't write main().
-     Don't read input, it is passed as function argument.
-     Return output and don't print it.
-     Taking input and printing output is handled automatically.
-*/ long max=0;
+    long max=0;
   int s1=0,s2=0,i=0,j=0;
   while(i<size1 && j<size2){
     // comparison
