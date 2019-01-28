@@ -1,11 +1,6 @@
 //void merge(int arr1[], int size1, int arr2[], int size2, int ans[]){
     
-    /* Don't write main().
-     * Don't read input, it is passed as function argument.
-     * Save the merged array in ans[] array passed as argument.
-     * Don't return or print anything.
-     * Taking input and printing output is handled automatically.
-     */
+   
     void merge(int arr1[], int size1, int arr2[], int size2, int ans[]){
  int i=0,j=0,k=0;
   
