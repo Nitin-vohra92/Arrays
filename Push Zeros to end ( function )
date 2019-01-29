@@ -20,6 +20,7 @@ void PushZeroesEnd(int arr[], int n)
       j++;
     }
   }
+  
 for(;j<n;j++)
 {
   arr[j]=0;
