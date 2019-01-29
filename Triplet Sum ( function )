@@ -3,11 +3,7 @@
 // x - sum of triplets
 
 void FindTriplet(int a[], int n, int x) {
-    /* Don't write main().
-     * Don't read input, it is passed as function argument.
-     * Print output and don't return it.
-     * Taking input is handled automatically.
-     */
+    
   for(int i = 0; i<n; i++){
         for(int j = i + 1; j<n; j++){
             int sum = 0;
