@@ -1,12 +1,9 @@
 // arr - input array
 // n - size of array
 
-void SortZeroesAndOne(int arr[], int n){
-    /* Don't write main().
-     * Don't read input, it is passed as function argument.
-     * Update in the given array itself. Don't return or print anything.
-     * Taking input and printing output is handled automatically.
-     */
+void SortZeroesAndOne(int arr[], int n)
+{
+    
   int i,k=0,count;
   for(i=0;i<n;i++)
   {
@@ -17,9 +14,10 @@ void SortZeroesAndOne(int arr[], int n){
       count=k;
     }
 
-}
+ }
 for(k=count;k<n;k++)
 {
   arr[k]=1;
 }
+
 }
