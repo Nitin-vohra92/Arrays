@@ -5,12 +5,8 @@
 // output - array in which sum is to be stored
 
 void sumOfTwoArrays(int input1[], int size1, int input2[], int size2, int output[]){
-    /* Don't write main().
-     * Don't read input, it is passed as function argument.
-     * No need to print or return the output. Just fill the output in given output array.
-     * Taking input and printing output is handled automatically.
-  
- */  
+   
+   
   if(size1>=size2)
   { int sum=0,k=size1,i=0,j=0;
 	k=size1; 
