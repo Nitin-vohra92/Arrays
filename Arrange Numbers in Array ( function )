@@ -1,12 +1,21 @@
+/*
+Sample Input 1 :
+6
 
+Sample Output 1 :
+ 1 3 5 6 4 2
+ 
+ 
+Sample Input 2 :
+9
+
+  Sample Output 2 :
+1 3 5 7 9 8 6 4 2
+ */
 
 void arrange(int arr[],int n){
  
-  /* Don't write main().
-     Don't read input, it is passed as function argument.
-     Arrange elements in the array "arr" given as input.
-     Taking input and printing output is handled automatically.
-  */
+ 
 int i,val=1,j=n-1;
   for(i=0;i<j;)
   {
@@ -15,7 +24,7 @@ int i,val=1,j=n-1;
     arr[j]=val;//printing even no.s
     val++;
     i++;
-      j--;
+    j--;
   }
   if(i==j)
   {
