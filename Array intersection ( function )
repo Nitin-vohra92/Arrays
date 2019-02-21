@@ -5,7 +5,7 @@
 
 void intersection(int input1[], int input2[], int size1, int size2) {
     
-int i,j,k=0,n=0,arr[1000];
+int i,j,k=0,n=0,arr[10000];
   {
     for(i=0;i<size1;i++)
     
