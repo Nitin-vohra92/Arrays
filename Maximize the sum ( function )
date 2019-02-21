@@ -2,7 +2,8 @@ long maxPathSum(int ar1[], int ar2[], int size1, int size2)
 {
     long max=0;
   int s1=0,s2=0,i=0,j=0;
-  while(i<size1 && j<size2){
+  while(i<size1 && j<size2)
+  {
     // comparison
     if(ar1[i] < ar2[j])
     {s1=s1+ar1[i];
