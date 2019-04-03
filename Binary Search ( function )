@@ -4,8 +4,6 @@
 
 int BinarySearch(int arr[], int n, int val)
 {	
-	
-
   int start,end,middle,a=-1;
   start=0;
   end=n-1;
@@ -31,6 +29,5 @@ int BinarySearch(int arr[], int n, int val)
     }
     
   }
-
 return a;
 }
