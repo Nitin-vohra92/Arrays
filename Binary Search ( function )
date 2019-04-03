@@ -11,13 +11,15 @@ int BinarySearch(int arr[], int n, int val)
   end=n-1;
   while(start<=end)
   {
+  
       middle=(start+end)/2;
 
     if(val==arr[middle])
     {
       return middle;
     }
-    else {
+    else
+    {
       if(val>arr[middle])
 	start=middle+1; 
      else if (val<arr[middle])
@@ -25,7 +27,9 @@ int BinarySearch(int arr[], int n, int val)
       end=middle-1;
     }
       
+      
     }
+    
   }
 
 return a;
