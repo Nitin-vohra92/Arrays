@@ -1,12 +1,12 @@
 
 int FindDuplicate(int arr[], int size)
-{
-    
-  int i,j;
+{   
+    int i,j;
     for(i=0;i<size;i++)
     {
       for(j=0;j<size;j++)
       {
+        
         if(i==j)
         {
           continue;
@@ -15,7 +15,9 @@ int FindDuplicate(int arr[], int size)
         {
           return arr[i];
         }
+        
       }
+      
     }
   }
 
