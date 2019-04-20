@@ -17,14 +17,15 @@ int i,j,k=0,n=0,arr[10000];
                 {
                      arr[k]=input1[i];
                      input2[j]=-1000000;
-      k++;
-      n=k;
-      break;
-      
-    }
+                     k++;
+                     n=k;
+                     break;
+                }
      
- }
+            }
+     
      }
+     
   }
   
   for(k=0;k<n;k++)
