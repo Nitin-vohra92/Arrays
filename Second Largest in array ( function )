@@ -16,7 +16,7 @@ int FindSecondLargest(int arr[], int n)
   if(arr[i]==max)
     arr[i]=-100000;
   }
- int smax=-100000;
+    int smax=-100000;
     for( j=0;j<n;j++)
   {
     if(smax<arr[j])
