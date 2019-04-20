@@ -3,7 +3,8 @@
 // size1 - size of first array
 // size2 - size of second array
 
-void intersection(int input1[], int input2[], int size1, int size2) {
+void intersection(int input1[], int input2[], int size1, int size2)
+{
     
 int i,j,k=0,n=0,arr[10000];
   {
