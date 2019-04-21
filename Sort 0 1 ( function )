@@ -2,8 +2,7 @@
 // n - size of array
 
 void SortZeroesAndOne(int arr[], int n)
-{
-    
+{ 
   int i,k=0,count;
   for(i=0;i<n;i++)
   {
