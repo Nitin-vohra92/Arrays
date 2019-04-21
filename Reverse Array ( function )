@@ -12,7 +12,6 @@ void Reverse(int arr[],int size)
             arr[i]=arr[j];
             arr[j]=x;
             j=j-1;
-        }
-        
+        }     
           
  }
