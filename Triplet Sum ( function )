@@ -25,6 +25,7 @@ void FindTriplet(int a[], int n, int x)
                                 cout<<a[k]<<" "<<a[j]<<endl;
                           }
                      }    
+                      
                       else
                             cout<<a[k]<<" "<<a[i]<<" "<<a[j]<<endl;
                  }
@@ -40,9 +41,9 @@ void FindTriplet(int a[], int n, int x)
                         }
                         else
                             cout<<a[k]<<" "<<a[j]<<" "<<a[i]<<endl;
-                  }
-                }
-            }
+                 }
+              }
            }
         }
+     }
     }
