@@ -12,7 +12,6 @@ void SortZeroesAndOne(int arr[], int n)
       k++;
       count=k;
     }
-
  }
   for(k=count;k<n;k++)
 {
