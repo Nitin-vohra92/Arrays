@@ -3,17 +3,17 @@ using namespace std;
 
 int main()
 {
-  int inputN[10000],i,n;
+  int input[10000],i,n;
   int sum;
 cin>>n;
   for(i=0;i<n;i++)
   {
-    cin>>inputN[i];
+    cin>>input[i];
     
   }
   for(i=0;i<n;i++)
   {
-    sum=sum+inputN[i];
+    sum=sum+input[i];
   }
   cout<<sum;
 
