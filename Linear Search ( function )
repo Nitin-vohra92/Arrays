@@ -1,3 +1,4 @@
+// Function to find an element using linear search
 // arr - input array
 // n - size of array
 // val - element to be searched
