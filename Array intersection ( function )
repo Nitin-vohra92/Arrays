@@ -21,11 +21,8 @@ int i,j,k=0,n=0,arr[10000];
                      n=k;
                      break;
                 }
-     
             }
-     
      }
-     
   }
   
   for(k=0;k<n;k++)
