@@ -1,5 +1,5 @@
 // arr - input array
-// size - size of array
+// size - size of the array
 void Reverse(int arr[],int size) 
 {
      int j,x,i;

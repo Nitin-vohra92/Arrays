@@ -1,7 +1,7 @@
 // input1 - first array
 // input2 - second array
 // size1 - size of first array
-// size2 - size of second array
+// size2 - size of the  second array
 
 void intersection(int input1[], int input2[], int size1, int size2)
 {

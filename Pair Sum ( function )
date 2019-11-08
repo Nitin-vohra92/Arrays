@@ -11,6 +11,5 @@ int i,j;
              if(input[i]>input[j])
         cout<<input[j]<<" "<<input[i]<<endl;       
       }
-    }
-  }
-}
+    }}}
+
