@@ -21,4 +21,3 @@ int FindDuplicate(int arr[], int size)
       
     }
   }
-
