@@ -8,7 +8,6 @@ Sample Output 1 :
  
  
  
- 
 Sample Input 2 :
 9
 
