@@ -1,3 +1,1 @@
 # Arrays
-# C++
-# Function
